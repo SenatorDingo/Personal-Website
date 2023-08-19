@@ -61,6 +61,46 @@ main {
 
 .intro p {
   font-size: 1.2rem;
+  line-height: 2cap;
+}
+
+.about-me {
+  background-color: #7e57c2;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about-me-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about-me-image {
+  width: 30%;
+  border: 2px solid #fff;
+  border-radius: 10px; 
+  overflow: hidden; 
+  margin-right: 20px;
+}
+
+.about-me-image img {
+  width: 100%;
+  height: auto;
+}
+
+.about-me-description {
+  flex: 1;
+}
+
+.about-me-description p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 #linksTitle{
